@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Mulish:wght@200&display=swap');
+
+:root{
+    --dark: hsl( 231, 68%, 6% );
+    --white: hsl( 0, 0%, 100% );
+    --darkBlue: hsl( 233, 26%, 24% );
+    --grey: hsl( 220, 16%, 96% );
+    --yellow: rgb(236,204,77);
+    --red: rgba(240, 77, 77, 0.973);
+
+    --DM: 'DM Sans', sans-serif;
+    --Mulish: 'Mulish', sans-serif;
+}
+
+body{
+    font-family: var(--Mulish) !important;
+
+    ul li{
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .col, .row{
+        margin: 0;
+        padding: 0;
+    }
+
+    button { 
+        cursor: pointer;
+        outline:none;
+    }
+
+    .light{
+        color: var(--dark);
+        transition: all 2s ease;
+    }
+
+    .dark{
+        color: var(--white);
+        transition: all 2s ease;
+    }
+
+}

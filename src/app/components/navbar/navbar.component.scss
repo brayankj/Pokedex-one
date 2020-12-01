@@ -1,0 +1,35 @@
+nav{
+    background: var(--darkBlue);
+
+    a{
+        color: var(--white);
+        font-size: 20px;
+    }
+
+    a span{
+        color: var(--red);
+        font-size: 28px;
+    }
+
+    .menu{
+        align-items: center;
+    }
+
+    form{
+        input{
+            border-radius: 25px;
+            border: 0px;
+        }
+        button{
+            background: var(--white);
+            border-radius: 50%;
+        }
+    }
+    
+}
+
+@media (max-width: 768px) { 
+    form .btn{
+        display: none;
+    }
+}

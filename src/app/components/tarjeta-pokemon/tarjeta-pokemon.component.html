@@ -1,0 +1,10 @@
+<div class="card">
+    <p class="id"><small> {{ pokemons.id }} </small></p>
+    <div class="card-title"> {{ pokemons.name | uppercase }} </div>
+    <div class="card-body">
+        <img [src]="pokemons.sprites.front_default" alt="{{pokemons.name}}">
+        <p><small>Power: {{ pokemons.base_experience }}</small></p>
+        <p><small>Height: {{ pokemons.height }}</small></p>
+        <p><small>Weight: {{ pokemons.weight }}</small></p>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+.content{
+    background: var(--darkBlue);
+    color: var(--white);
+    height: 100vh;
+    width: 100%;
+    
+    h2{
+        font-size: 120px;
+        font-family: var(--DM);
+        margin-top: 20px;
+    }
+    h3{
+        font-size: 40px;
+        font-family: var(--DM);
+    }
+    button{
+        background: var(--white);
+        border-radius: 15px;
+        display: block;
+        margin: 0 auto;
+    }
+    img{
+        cursor: pointer;
+        max-width: 240px;
+    }
+}
